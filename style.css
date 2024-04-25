@@ -1,9 +1,57 @@
-body{
-    background-color: #FFFF;
+html {
+    background: url(https://images.unsplash.com/photo-1636123700937-ec5d1d9d68f9?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+.middle{
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
     margin: 0;
     padding: 0;
-    display: grid;
+    display: -moz-inline-grid;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    display: flex;
+    text-shadow: 2px 2px 5px #000;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navigation{
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00000046;
+    font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  float:inherit;
+ }   
+
+li {
+ float: center;
+ margin: 0px;
+ padding: 0px;
+ border: 2px solid #000000;
+ text-align: center;
 }
