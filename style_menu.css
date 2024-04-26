@@ -1,0 +1,158 @@
+html {
+    background: url(https://images.unsplash.com/photo-1600172454520-134a542a2255?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfDB8MHx8fDI%3D) no-repeat center center fixed;
+    background-size: cover;
+    mix-blend-mode: darken;
+}
+
+h1{
+    font-size: 70px ;
+    color:deeppink ;
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 10px;
+
+}
+h2{
+    font-size: 45px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -20px;
+}
+.rose1{
+    color: red;
+}
+.rose2{
+    color:blue ;
+}
+
+.rose3{
+    color:purple ;
+}
+.rose4{
+    color:yellow ;
+}
+.btn1{
+   background-color: red;
+   border: none;
+   color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn2{
+    background-color: blue;
+    border: none;
+    color: white;
+     border-radius: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 5px 5px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+}
+
+.btn3{
+    background-color: purple;
+    border: none;
+    color: white;
+     border-radius: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 5px 5px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+ }
+ .btn4{
+    background-color: yellow;
+    border: none;
+    color: white;
+     border-radius: 10px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 5px 5px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+ }
+ .redRose, .blueRose, .purpleRose, .yellowRose{
+   display: flex;
+   
+ }
+ .redRose{
+    float: left;
+ }
+ .blueRose{
+    float: right;
+ }
+ .purpleRose{
+    float: left;
+ }
+ .yellowRose{
+    float: right;
+ }
+.redRoseContainer{
+    width: 80vw;
+}
+.purpleRoseContainer{
+    width: 80vw;
+}
+
+h3{
+    font-size: 40 px;
+    width: 400px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight;
+    font-style: normal;
+    
+}
+p{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: thin;
+    font-style: normal;
+}
+
+span{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.acc1{
+    color: red;
+    text-shadow: 2px 2px 5px black;
+}
+.acc2{
+    color: blue;
+    text-shadow: 2px 2px 5px black;
+}
+.acc3{
+    color: purple;
+    text-shadow: 2px 2px 5px black;
+}
+.acc4{
+    color: yellow;
+    text-shadow: 2px 2px 5px black;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    color:black;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
