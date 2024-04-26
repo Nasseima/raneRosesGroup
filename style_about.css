@@ -1,150 +1,202 @@
 body{ 
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    mix-blend-mode: darken;
-    background-image: 0.8;
-    color: rgb(63, 4, 4);
-    text-shadow: 2px 2px 5px #000;
-    font-family: "Kaushan Script", cursive;
-    font-weight: 400;
-    font-style: normal;
-    background-color: ;
-    float: inline;
-    padding: left 50%;
-    padding right: 30%;
-    
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: darken;
+  background-image: 0.8;
+  color: rgb(63, 4, 4);
+  text-shadow: 2px 2px 5px #000;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: ;
+  float: inline;
+  padding: left 50%;
+  padding right: 30%;
+  
 
 }
 
 
 img{
-    width:100px;
-    height: 100px;
-    box-shadow:2px 2px 5px #000;
-    border-radius: 35px;
-    
-    
+  width:100px;
+  height: 100px;
+  box-shadow:2px 2px 5px #000;
+  border-radius: 35px;
+  
+  
 }
 .img1{
-    width: 20vw;
+  width: 20vw;
 }
 .img2{
-    width: 20vw;
+  width: 20vw;
 }
 .img4{align-items: center; }
 
 
-  html {
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 
-  }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0px;
+}
+
+
+.card {
+  box-shadow: 2px 2px 5px 0 rgba(7, 0, 0, 0.2);
+  margin: 8px; 
+  background-color: rgb(242, 216, 182);
+  opacity: 85%;
   
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
   
+}
+
+.about-section {
+  padding: 20%;
+  text-align: center;
+  background-color: #3d6ac9;
+  background: url(https://images.unsplash.com/photo-1636123700937-ec5d1d9d68f9?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed;
+  color: rgb(11, 0, 0);
+  font-family: ;", cursive;
+}
+
+.container {
+  padding: 0px;
+  background-color: rgb(242, 216, 182);
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 85%;
+}
+
+.container2::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-shadow: 5px 5px 5px #000;
+}
+
+.container2{
+
+  
+}
+
+.title {
+  color:rgb(255, 255, 255);
+  font-size: larger;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  padding-bottom: 20px;
+  
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+h1{-webkit-text-fill-color:rgb(63, 4, 4);
+font-size: 52px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.text{ font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.button:hover {
+  background-color: #555;
+}
+h2{
+  color: rgb(63, 4, 4);
+  font-size: 36px;
+  padding-top: 0px;
+  margin-top: 0px;
+  
+  font-family: 
+}
+
+@media screen and (max-width: 650px) {
   .column {
-    float: left;
-    width: 25%;
-    margin-bottom: 16px;
-    padding: 0px;
-  }
-  
-  
-  .card {
-    box-shadow: 2px 2px 5px 0 rgba(7, 0, 0, 0.2);
-    margin: 8px; 
-    background-color: rgb(242, 216, 182);
-    opacity: 85%;
-    
-    
-  }
-  
-  .about-section {
-    padding: 20%;
-    text-align: center;
-    background-color: #3d6ac9;
-    background: url(https://images.unsplash.com/photo-1636123700937-ec5d1d9d68f9?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed;
-    color: rgb(11, 0, 0);
-    font-family: ;", cursive;
-  }
-  
-  .container {
-    padding: 0px;
-    background-color: rgb(242, 216, 182);
-    padding-left: 20px;
-    padding-right: 20px;
-    opacity: 85%;
-  }
-  
-  .container2::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    box-shadow: 5px 5px 5px #000;
-  }
-  
-  .container2{
-
-    
-  }
-  
-  .title {
-    color:rgb(255, 255, 255);
-    font-size: larger;
-    font-family:"Kaushan Script", cursive;"
-    padding-bottom: 20px;
-    
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
     width: 100%;
-  }
-  h1{-webkit-text-fill-color:rgb(63, 4, 4);
-  font-size: 52px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;}
-  .text{ font-family: Georgia, 'Times New Roman', Times, serif;}
-  
-  .button:hover {
-    background-color: #555;
-  }
-  h2{
-    color: rgb(63, 4, 4);
-    font-size: 36px;
-    padding-top: 0px;
-    margin-top: 0px;
-    
-    font-family: 
+    display: block;
   }
   
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-    
-  }
+}
 
-  .footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: left;
-    color:black;
-    font-size: 14px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-    justify-content: center;
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color:black;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  justify-content: center;
+}
+nav{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20vw;
+  background-color: transparent;
+  
+}   
+
+a{ margin-right: 80px;
+}
+/* unvisited link */
+a:link {
+  color: hotpink;
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(95, 238, 124);
+  background-color: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(149, 114, 213);
+  background-color: #fcb1f446;
+}
+
+/* selected link */
+a:active {
+  color: rgb(116, 116, 255);
 }

@@ -156,3 +156,46 @@ span{
     font-weight: normal;
     font-style: normal;
 }
+
+nav{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20vw;
+    background-color: transparent;
+    
+  }   
+  
+  a{ margin-right: 80px;
+  }
+  /* unvisited link */
+  a:link {
+    color: hotpink;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(95, 238, 124);
+    background-color: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(149, 114, 213);
+    background-color: #fcb1f446;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(116, 116, 255);
+  }
