@@ -24,7 +24,10 @@ html {
     flex-wrap: wrap;
     flex-flow: column wrap;
 }
-
+ h1{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+ }
 nav{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -32,51 +35,64 @@ nav{
     font-style: normal;
     flex-wrap: wrap;
     flex-flow: column wrap;
-    height: -50vh;
-
-}
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #00000046;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 20px;
+    font-size: 24px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
     
  }   
 
-li{
- margin: 0px;
- padding: 0px;
- border: 2px solid #000000;
- text-align: center;
-}
+ a{ margin-right: 80px;
+ }
 
 /* unvisited link */
 a:link {
     color: hotpink;
+    background-color: #00000046;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    radius: 5px
   }
   
   /* visited link */
   a:visited {
     color: rgb(95, 238, 124);
+    background-color: #000;
   }
   
   /* mouse over link */
   a:hover {
     color: rgb(149, 114, 213);
+    background-color: #fcb1f446;
   }
   
   /* selected link */
   a:active {
     color: rgb(116, 116, 255);
+  }
+
+  p{
+    padding-top: 70px;
+    margin-top: 70px;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px #000;
+    position: absolute;
+    left: 45vw;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .footer{
+    color: #ffffff;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: left;
+      font-size: 14px;
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: normal;
+      font-style: normal;
   }
